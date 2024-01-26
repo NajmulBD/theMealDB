@@ -1,0 +1,20 @@
+#logo {
+    height: 50px;
+    width: 50px;
+}
+​
+#search-bar{
+    width: 900px;
+}
+​
+#foodList {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px; /* Adjust as needed */
+}
+​
+.meal-item {
+    border: 1px solid #ccc; /* Add borders or other styling */
+    padding: 10px;
+    text-align: center;
+}
